@@ -3,29 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button/Button.tsx'
 import Text from './components/Text/Text.tsx'
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import Root from './pages/Root.tsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <Button/>
-        <Text>
-          Test123
-        </Text>
-        {/* <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Root />}>
+          {/* <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
