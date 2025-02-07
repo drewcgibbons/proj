@@ -3,11 +3,8 @@ import "./ScoreRow.css";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {ScoreRowProps} from '../../types/ScoreRowProps';
 
-interface ScoreRowProps{
-    teamName : string,
-    score : number
-}
 
 function ScoreRow({teamName, score} : ScoreRowProps){
     return (
