@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import Root from './pages/Root/Root.tsx'
-import Home from './pages/Home/Home.tsx'
+import Root from './pages/Root/Root'
+import Home from './pages/Home/Home'
 
 const App : React.FC = () => {
   return (

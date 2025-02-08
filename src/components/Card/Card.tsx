@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import "./Card.css";
-import ScoreRow from '../ScoreRow/ScoreRow.tsx';
-import {CardProps} from '../../types/CardProps.ts'
-import { ScoreRowProps } from '../../types/ScoreRowProps.ts';
+import ScoreRow from '../ScoreRow/ScoreRow';
+import {CardProps} from '../../types/CardProps'
+import { ScoreRowProps } from '../../types/ScoreRowProps';
 import { Container, Row } from 'react-bootstrap';
 
 const Card : React.FC<CardProps> = (cardProps : CardProps) => {

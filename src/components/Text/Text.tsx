@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Text.css"
 
-function Text({children}){
+function Text(){
     return (
-        <p>{children}</p>
+        <p></p>
     );
 }
 
