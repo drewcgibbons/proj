@@ -1,11 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Button from './components/Button/Button.tsx'
-import Text from './components/Text/Text.tsx'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import Root from './pages/Root.tsx'
-import ScoreRow from './components/ScoreRow/ScoreRow.tsx';
 
 function App() {
   return (
