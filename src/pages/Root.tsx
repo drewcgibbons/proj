@@ -22,7 +22,7 @@ function Root() {
     useEffect(() => {
         // Using fetch to fetch the api from 
         // flask server it will be redirected to proxy
-        const x = fetch("/data", {
+        const x = fetch("/game?id=1", {
             method : "GET",
             headers :{
                 "accepts" : "application/json"
