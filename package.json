@@ -2,7 +2,7 @@
   "name": "proj",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://localhost:5000/",
+  "proxy": "http://localhost:5000/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +13,7 @@
     "@types/react-dom": "^18.3.5",
     "bootstrap": "^5.3.3",
     "cra-template-typescript": "1.2.0",
+    "mdb-react-ui-kit": "^9.0.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^19.0.0",
