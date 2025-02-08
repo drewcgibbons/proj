@@ -1,0 +1,28 @@
+/* .Root{
+    align-items: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+} */
+
+.Root{
+    background-color: #282c34;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.CardContainer{
+    padding-top: 20px;
+    background-color: #282c34;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    
+    :not(:first-child){
+        margin-top: 10px;
+    }
+}

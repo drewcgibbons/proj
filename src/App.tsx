@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import Root from './pages/Root.tsx'
+import Root from './pages/Root/Root.tsx'
+import Home from './pages/Home/Home.tsx'
 
-function App() {
+const App : React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Root/> }>
+        <Route path="/" element={<Root/> }/>
           {/* <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} /> */}
-        </Route>
+        <Route path="/home" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
   );
