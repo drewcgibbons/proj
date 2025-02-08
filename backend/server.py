@@ -12,6 +12,7 @@ x = datetime.datetime.now()
 app = Flask(__name__)
 app.config['DB_HOST'] = 'localhost'
 app.config['DB_USER'] = 'root'
+app.config['SCHEMA'] = "game"
 
 # Route for seeing data
 @app.route('/game')
