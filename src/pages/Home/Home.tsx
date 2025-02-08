@@ -1,5 +1,5 @@
 import React from 'react';
-import PageNavbar from '../../components/PageNavbar/PageNavbar.tsx';
+import PageNavbar from '../../components/PageNavbar/PageNavbar';
 import "./Home.css"
 
 const Home : React.FC = () => {

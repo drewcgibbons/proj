@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import "./Root.css"
-import Card from '../../components/Card/Card.tsx';
+import Card from '../../components/Card/Card';
 import Container from 'react-bootstrap/Container';
-import PageNavbar from '../../components/PageNavbar/PageNavbar.tsx';
+import PageNavbar from '../../components/PageNavbar/PageNavbar';
 
 const Root : React.FC = () => {
     //getScores();
