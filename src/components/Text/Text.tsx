@@ -3,7 +3,7 @@ import "./Text.css"
 
 function Text(){
     return (
-        <p></p>
+        <></>
     );
 }
 
